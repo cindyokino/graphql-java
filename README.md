@@ -10,7 +10,15 @@ https://graphql-java-rocket-elevators.herokuapp.com/playground
 ```
 query getAddressById{
   address(id: 1){
+    id
+    typeAddress
+    status
+    entite
     city
+    postalCode
+    country
+    fullStreetAddress
+    notes
   } 
 }
 
