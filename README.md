@@ -4,7 +4,7 @@ The project is still in progress...
 This is a Java GraphQL API to retrieve informations about Rocket Elevators
 
 ### Heroku Link:
-
+https://graphql-java-rocket-elevators.herokuapp.com/playground
 
 ### You can try only these 3 querys for now (retrieve data from MySQL database):
 ```
@@ -37,4 +37,5 @@ query listOfElevatorsNotInOperation{
 - https://github.com/graphql-java-kickstart/graphql-spring-boot
 - https://www.jetbrains.com/help/idea/2016.1/generating-persistence-mappings.html
 - https://spring.io/guides/gs/accessing-data-mysql/
+- https://stackoverflow.com/questions/60561070/springboot-connection-to-rds-throws-exception-caused-by-java-security-cert-cer - to solve Heroku Deploy problem
 
