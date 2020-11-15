@@ -1,0 +1,5 @@
+type Query {
+    address(id: ID): Address
+    addresses: [Address]
+    listOfElevatorsNotInOperation: [Elevators]
+}

@@ -1,0 +1,10 @@
+type Elevators{
+    id: ID!
+    status: String!
+    serialNumber: String!
+    model: String!
+    typeBuilding: String!
+    dateLastInspection: String!
+#    columnId: String!
+#    column: String!
+}

@@ -1,0 +1,15 @@
+type Address{
+    id: ID!
+    typeAddress: String!
+    status: String!
+    entite: String!
+    address: String!
+    address2: String!
+    city: String!
+    postalCode: String!
+    country: String!
+    notes: String!
+    latitude: String!
+    longitude: String!
+    fullStreetAddress: String!
+}
